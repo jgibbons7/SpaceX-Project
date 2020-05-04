@@ -1,10 +1,132 @@
 /* SpaceX CSS */
 
-#navigation {
-    background-color: rgb(10, 10, 10);
-    height: 15vh;
+body {
+    overflow-x: hidden;
 }
 
-.Falcon9 {
+#navigation {
+    background-color: rgb(10, 10, 10);
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20vw;
+    float: left;
+}
+/* #navigation2 {
+    background-color: rgb(10, 10, 10);
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 20vw; */
+    /* float: right;
+    flex-wrap: wrap; */
 
+/* } */
+
+#footer {
+    background-color: rgb(10, 10, 10);
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20vw;
+    float: left;
+    flex-wrap: wrap;
+}
+.footerlogo {
+    display: flex;
+    float: left;
+    height: 4vh;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    
+}
+
+.Falcon9, .FalconHeavy, .Dragon, .Starship, .SpaceX {
+    position: flex;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    font-size: 15px;
+    float: left;
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+}
+
+.ABOUTSPACEX, .CAREERS, .SHOP {
+    position: flex;
+    padding: 10px;
+    /* height: vh; */
+    display: flex;
+    align-items: center;
+    color: rgb(202, 202, 202);
+    flex-direction: row;
+    font-size: 12px;
+    float: right;
+    
+}
+.UPDATES {
+position: flex;
+padding: 10px;
+/* height: vh; */
+display: flex;
+align-items: center;
+color: rgb(202, 202, 202);
+flex-direction: row;
+font-size: 12px;
+float: right;
+margin-left: 10vw;
+}
+.logo {
+    float: left;
+    padding: 3vh;
+}
+
+
+
+.imgmain {
+    width: 100vw;
+    height: 78vh;
+
+}
+
+.subheader {
+    width: 100vw;
+    height: 8vh;
+    display: inline-block;
+    font-family: 'Brandon Grotesque','brandon-grotesque-n7','brandon-grotesque',Helvetica,sans-serif;
+    font-weight: bold;
+    background-color: rgb(236, 236, 236);
+    color: #3a3a3a;
+    text-align: center;
+    
+}
+
+
+.linkcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60vw;
+    height: 40vh;
+    padding: 10vh;
+    margin-left: 15vw;
+
+}
+
+.boxlink {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    flex-direction: row;
+    font-family: 'Brandon Grotesque','brandon-grotesque-n7','brandon-grotesque',Helvetica,sans-serif;
 }
