@@ -130,3 +130,21 @@ margin-left: 10vw;
     flex-direction: row;
     font-family: 'Brandon Grotesque','brandon-grotesque-n7','brandon-grotesque',Helvetica,sans-serif;
 }
+
+.copyright {
+    margin-left: 15 vw;
+    color: rgb(71, 71, 71);
+    padding: 30px;
+}
+
+.lasttag {
+    position: flex;
+    padding: 10px;
+    /* height: vh; */
+    display: flex;
+    align-items: center;
+    color: rgb(202, 202, 202);
+    flex-direction: row;
+    font-size: 12px;
+    float: right;
+}
