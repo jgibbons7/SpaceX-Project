@@ -4,6 +4,18 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    text-align: center;
+    font-family: 'Brandon Grotesque','brandon-grotesque-n7','brandon-grotesque',Helvetica,sans-serif;
+    font-weight: 700;
+}
+
+a {
+    
+}
+
+
+
 #navigation {
     background-color: rgb(10, 10, 10);
     height: 8vh;
@@ -113,22 +125,31 @@ margin-left: 10vw;
 
 .linkcontainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 60vw;
     height: 40vh;
     padding: 10vh;
     margin-left: 15vw;
-
+   
 }
 
 .boxlink {
     height: 300px;
     width: 300px;
-    border: 2px solid black;
-    display: inline-block;
+    /* border: 2px solid black; */
+    display: flex;
     flex-direction: row;
     font-family: 'Brandon Grotesque','brandon-grotesque-n7','brandon-grotesque',Helvetica,sans-serif;
+    box-shadow: 0px 0px 5px grey;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.linkpic {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .copyright {
